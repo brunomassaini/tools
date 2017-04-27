@@ -4,11 +4,12 @@ Run same commands on multiple servers without having to ssh one per one
 
 ## Prerequisites
 
-You need `jq` installed on you rcomputer
+You need `jq` installed on your computer
 
 ## Configuration
 
 Specify the IP list of your servers on a `config.json` file
+
 Here is an example:
 ```json
 {
@@ -23,13 +24,14 @@ Here is an example:
 ```
 
 Then you need to place the commands you want to run on each server on the `commands.sh` file
+
 Here is an example:
 ``` bash
 echo "Yep, you logged here" >> ~/ssh_ninja.txt
 ```
 
-After that you can just run the commands
+After that you can just run the script
 
 ## Running
 
-Just do `ssh-commands.sh`
+Just do `ninja.sh`

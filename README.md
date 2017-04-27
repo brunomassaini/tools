@@ -2,5 +2,5 @@
 
 ## List and Short Discription
 
-- ssh-commands-ninja
+- **ssh-commands-ninja**
     * Run same commands on multiple servers like ninja
