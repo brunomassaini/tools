@@ -1,0 +1,1 @@
+echo "Yep, you logged here" >> ~/ssh_ninja.txt
