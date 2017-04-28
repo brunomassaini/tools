@@ -1,1 +1,1 @@
-echo "Yep, you logged here" >> ~/ssh_ninja.txt
+echo "Yep, you logged here" >> /home/user/ssh_ninja.txt

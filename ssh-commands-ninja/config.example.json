@@ -1,6 +1,6 @@
 {
-    "SSH_USER": "ninja",
-    "SSH_KEY": "~/.ssh/my_ninja_key",
+    "SSH_USER": "user",
+    "SSH_KEY": "/home/user/.ssh/id_rsa",
     "IP_LIST": [
         "172.16.0.1",
         "172.16.0.2",
