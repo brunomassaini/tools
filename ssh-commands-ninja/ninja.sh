@@ -11,8 +11,10 @@ declare -a IP_SERVER_LIST_ARRAY=$IP_SERVER_LIST;
 echo "Loading Ninja Commands"
 for i in ${!IP_SERVER_LIST_ARRAY[@]} ; do
     echo "Running Commands"
-    echo "- Server" `expr $i + 1`":" ${IP_SERVER_LIST_ARRAY[$i]}`
+    echo "- Server" `expr $i + 1`":" ${IP_SERVER_LIST_ARRAY[$i]}
 
     ssh -T -i $SSHKEY $SSHUSER@${IP_SERVER_LIST_ARRAY[$i]} & bash commands.sh
+    exit
+done
 
 echo "All commands finished"
