@@ -12,8 +12,8 @@ user: user2
 password: user2
 ```
 
-## Runnin
+## Running
 
 ```bash
-docker-lab.sh
+./docker-lab.sh
 ```
