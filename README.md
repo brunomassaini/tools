@@ -6,3 +6,5 @@
     * Run same commands on multiple servers like ninja
 - **docker-lab**
     * Install docker with non sudo users to run it
+- **js-telegram-bot**
+    * Telegram bot that answers messages
