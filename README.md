@@ -4,3 +4,5 @@
 
 - **ssh-commands-ninja**
     * Run same commands on multiple servers like ninja
+- **docker-lab**
+    * Install docker with non sudo users to run it
