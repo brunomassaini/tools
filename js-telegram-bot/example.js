@@ -4,6 +4,7 @@ var token = 'TELEGRAM_TOKEN';
 
 var bot = new TelegramBot(token, { polling: true });
 
+// Answers to ping :)
 bot.onText(/\/ping/, function (msg, match) {
 
   var chatId = msg.chat.id;
@@ -12,6 +13,7 @@ bot.onText(/\/ping/, function (msg, match) {
   bot.sendMessage(chatId, resp);
 });
 
+// Bot answers with Telegram chat ID
 bot.onText(/\/chatid/, function (msg, match) {
 
   var chatId = msg.chat.id;
@@ -20,6 +22,7 @@ bot.onText(/\/chatid/, function (msg, match) {
   bot.sendMessage(chatId, resp);
 });
 
+// Bot gives specific answer
 bot.onText(/\/whats_up/, function (msg, match) {
 
   var chatId = msg.chat.id;
@@ -28,6 +31,7 @@ bot.onText(/\/whats_up/, function (msg, match) {
   bot.sendMessage(chatId, resp);
 });
 
+// Bot will respond randomly
 bot.onText(/\/random_message/, function (msg, match) {
 
   var chatId = msg.chat.id;
@@ -37,6 +41,7 @@ bot.onText(/\/random_message/, function (msg, match) {
   bot.sendMessage(chatId, valueToUse);
 });
 
+// Bot will repeat message
 bot.onText(/\/repeat_this (.+)/, function (msg, match) {
 
   var chatId = msg.chat.id;
