@@ -4,6 +4,7 @@
 
 Script that dumps current policy configured on NewRelic that mets criteria, get all apps that met same criteria and assign all those apps to that policy
 
+### Variables
 ``` bash
 APP="APP_NAME_HERE"
 NEW_RELIC_API_KEY="NEW_RELIC_API_KEY_HERE"
