@@ -55,7 +55,7 @@ app_list=`curl -Ss ${NEW_RELIC_API_URL}/applications.json \
     -G -d 'filter[name]='${APP} | \
     jq -r '.applications | .[].name'`
 echo ${app_list}
-send_slack "App List: ${app_list}"
+send_slack "App List:\n ${app_list}"
 
 echo "*****"
 
