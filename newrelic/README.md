@@ -26,3 +26,6 @@ Script variable: `APP="foo"`
 `NEW_RELIC_API_KEY` - NewRelic API Key (not license key)
 `NEW_RELIC_API_NAME` - Check https://api.newrelic.com/
 `SLACK_HOOK` - Slack webhook to which notifications will be sent
+
+### Info
+Script will keep a json file with the policy that was uploaded to NewRelic with date as name prefix
